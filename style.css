@@ -49,9 +49,11 @@ button:hover{
     color: black;
 }
 #pass1, #pass2{
-    width: 15vw;
-    height: 1vh;
+    width: 9vw;
+    height: 10px;
+    margin-top: 1vw;
     border-radius: 2vw;
+    margin-top: 2vw;
     font-size: 1vw;
     padding: 1vw;
     color: forestgreen;
