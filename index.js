@@ -15,33 +15,3 @@ function random() {
         let pass = document.getElementById("pass2").innerHTML = sec;
     }
 }
-
-const pass = document.getElementById("pass1");
-
-pass.onclick = function() {
-    document.execCommand("copy");
-}
-
-pass.addEventListener("copy", function(event) {
-    event.preventDefault();
-    if (event.clipboardData) {
-        event.clipboardData.setData("text/plain", pass.textContent);
-        console.log(event.clipboardData.getData("text"))
-    }
-});
-
-
-
-const pass2 = document.getElementById("pass2");
-
-pass2.onclick = function() {
-    document.execCommand("copy");
-}
-
-pass2.addEventListener("copy", function(event) {
-    event.preventDefault();
-    if (event.clipboardData) {
-        event.clipboardData.setData("text/plain", pass2.textContent);
-        console.log(event.clipboardData.getData("text"))
-    }
-});
