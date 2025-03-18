@@ -1,7 +1,5 @@
 # Modern Password Generator
 
-![Password Generator Preview](https://via.placeholder.com/800x400?text=Password+Generator+Preview)
-
 ## Overview
 
 This Modern Password Generator is a sleek, user-friendly web application that allows you to create secure, customizable passwords with ease. Built with HTML, CSS, and JavaScript, this tool offers a responsive design with a beautiful UI and intuitive controls.
